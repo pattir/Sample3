@@ -1,0 +1,86 @@
+/**** BASE STYLES ****/
+body {
+	margin: 0 auto;
+}
+
+.container {width: 500px;}
+
+.palette1 {background: #E6E6FA;}
+.palette2 {background: #9730DB;}
+.palette3 {background: #DDA0DD;}
+.palette4 {background: #bdafe9;}
+
+.style1{
+	font-family: 'Dancing Script', cursive;
+	font-size: 24px;
+}
+.style2{
+	font-family: 'Concert One', cursive;
+	font-size: 22px;
+}
+.style3 {
+	font-family: 'Handlee', cursive;
+	font-size: 20px;
+}
+.style4 { 
+	font-family: 'Indie Flower', cursive;
+	font-size: 20px;
+}	
+.standout1 {
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+/**** GRID ****/
+
+.row {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.column_left {
+	float: left;
+	width: 250px;
+	margin: 0;
+}
+
+/* --- Clear floats after the columns --- */
+.row:after {
+    clear: both;
+	content: "";
+    display: table;
+}
+.column_left:after {
+	clear: both;
+	content: "";
+    display: table;
+}
+
+/**** TILES ****/
+
+.tile_big {
+	height: 300px;
+	text-align: center;
+	overflow: auto;
+}
+
+.tile_medium {
+	height: 200px;
+	text-align: center;
+	overflow: auto;
+	vertical-align: middle;
+}
+
+.tile_small {
+	height: 150px;
+	text-align: center;
+	overflow: auto;
+	vertical-align: middle;
+}
+
+p {
+	padding: 5% 5% 5% 5%;
+}
+
+#payattention {font-weight: bolder;}
+	
